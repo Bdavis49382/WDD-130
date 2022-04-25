@@ -1,0 +1,32 @@
+/* CSS HEX */
+/* --dark-jungle-green: #1f2421ff;
+--shiny-shamrock: #49a078ff;
+--skobeloff: #216869ff;
+--brown-sugar: #a9714bff;
+--platinum: #dce1deff; */
+
+body {
+    font-family: 'Courier New', Courier, monospace;
+    color: #49a078ff;
+    background-color: #dce1deff;
+}
+img {
+    max-width: 50%;
+    max-height: 50%;
+}
+p {
+    text-align: left;
+    padding-left: 2%;
+    color: #1f2421ff;
+}
+footer {
+    text-align: center;
+    font-size:x-small;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+.centered {
+    text-align: center;
+}
+.prettyFont {
+    font-family: cursive;
+}
