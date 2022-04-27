@@ -4,7 +4,9 @@
 --skobeloff: #216869ff;
 --brown-sugar: #a9714bff;
 --platinum: #dce1deff; */
-
+header {
+    text-align: end;
+}
 body {
     font-family: 'Courier New', Courier, monospace;
     color: #49a078ff;
