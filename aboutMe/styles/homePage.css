@@ -10,6 +10,10 @@ body {
     color: #49a078ff;
     background-color: #dce1deff;
 }
+a {
+    font-family: 'Courier New', Courier, monospace;
+    color: #a9714bff; 
+}
 img {
     max-width: 50%;
     max-height: 50%;
