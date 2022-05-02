@@ -1,0 +1,21 @@
+nav  {
+    background-color: #779be7;
+    line-height: 3em;
+    text-align: center;
+    font-size: 1.2em;
+    list-style-type: none;
+    display: flex;
+  }
+  nav a {
+    padding:1em;
+    min-width: 120px;
+    text-decoration: none;
+    padding: 10px;
+  }
+  nav a:any-link {
+      color:darkred;
+  }
+  nav a:hover {
+      background-color: aquamarine;
+      color:chocolate;
+  }
