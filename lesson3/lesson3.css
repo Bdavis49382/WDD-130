@@ -1,0 +1,23 @@
+.blueText {
+    color: blue;
+}
+.italics {
+    font-style: italic;
+}
+.pink {
+    color:pink;
+}
+.green {
+    color:green;
+}
+.blueButton {
+    /* background-color: #49b6ff; */
+    background-image: linear-gradient(45deg,#49b6ff,blue);
+    border-radius: 50px;
+    padding: 10px;
+    border: 2px solid black; 
+    transition-duration: 1s;  
+}
+.blueButton:hover {
+    background-image: linear-gradient(45deg,#478978,blue);
+}
