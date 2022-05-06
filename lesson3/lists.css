@@ -1,0 +1,45 @@
+/* Starting List styles */
+
+dl {
+    background-color: blanchedalmond;
+    width: 50%;
+}
+dl dt {
+    background-color: antiquewhite;
+    font-weight: 900;
+}
+dl dd {
+    font-style: italic;
+}
+dl dt, dl dd {
+    color:darkgreen;
+}
+.listContainer {
+    width:90%;
+    margin: 0 auto;
+    background-color: bisque;
+    border: 1px solid blue;
+}
+.listContainer ul {
+    list-style-type: none;
+    overflow: hidden;
+
+}
+.listContainer ul li {
+    float: left;
+    padding-left: 10%;
+    padding-right: 10%;
+    max-width: 50px;
+    height: auto;
+}
+
+/* starting table styles */
+
+table, table td, table th{
+    padding:20px;
+    border-collapse: collapse;
+    border: 1px solid black;
+}
+table tr:nth-child(odd) {
+    background-color: beige;
+}
