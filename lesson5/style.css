@@ -1,0 +1,47 @@
+#topBox, #middleBox, #bottomBox {
+    text-align: center;
+    font-weight: bold;
+}
+#topBox {
+    background-color: red;
+    width: 20%;
+    height: 35px;
+    margin: 0 auto;
+    padding-top: 20px;
+}
+#middleBox {
+    background-color: blue;
+    width: 25%;
+    height: 50px;
+    margin: 0 auto;
+    padding-top: 30px;
+}
+#bottomBox {
+    background-color: green;
+    width: 30%;
+    height: 70px;
+    margin: 0 auto;
+    padding-top: 45px;
+}
+#whiteSpace {
+    height: 40px;
+}
+#bottomBoxes {
+    width:30%;
+    margin: 0 auto;
+}
+#leftBox,#rightBox {
+    background-color: yellow;
+    width: 100px;
+    height: 100px;
+    display:inline-block;
+    justify-content:end; 
+}
+#leftBox {
+    margin: 0 auto;
+}
+#rightBox {
+    
+    float: right;
+    /* margin-left: 150px; */
+}
