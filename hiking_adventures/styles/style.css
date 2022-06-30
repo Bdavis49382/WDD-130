@@ -1,0 +1,119 @@
+@import url('https://fonts.googleapis.com/css2?family=BIZ+UDPGothic&display=swap');
+
+:root {
+  /* change the values below to your colors from your palette */
+  --primary-color: #ccf5acff   ;
+  --secondary-color: #bad29fff ;
+  --accent1-color: #808a9fff;
+  --accent2-color: white;
+
+    --tea-green: rgb(155, 197, 123);
+    --celadon: #bad29fff;
+    --roman-silver: #808a9fff;
+    --y-in-mn-blue: #2c497fff;
+    --russian-violet: #3d2b56ff;
+
+  /* change the values below to your chosen font(s) */
+  --heading-font: "BIZ UDPGothic";
+  --paragraph-font: "BIZ UDPGothic", Helvetica, sans-serif;
+
+  /* these colors below should be chosen from among your palette colors above */
+  --headline-color-on-white: rgb(155, 197, 123);  /* headlines on a white background */ 
+  --headline-color-on-color: white; /* headlines on a colored background */ 
+  --paragraph-color-on-white: rgb(155, 197, 123); /* paragraph text on a white background */ 
+  --paragraph-color-on-color: white; /* paragraph text on a colored background */ 
+  --paragraph-background-color: rgb(155, 197, 123);
+  --nav-link-color: rgb(155, 197, 123);
+  --nav-background-color: #3d2b56ff;
+  --nav-hover-link-color: white;
+  --nav-hover-background-color: rgb(155, 197, 123);
+}
+header nav {
+    background-color: var(--nav-background-color);
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    border-radius: 8px;
+}
+header nav a {
+    color: var(--nav-link-color);
+    text-align: center;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    border: 1px solid black;
+    border-radius: 8px;
+    text-decoration: none;
+}
+header nav a:hover {
+    color: var(--nav-hover-link-color);
+    background-color: var(--nav-hover-background-color);
+}
+#hero {
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: 1fr;
+}
+#hero-img {
+    grid-column: 1/2;
+    grid-row: 1/2;
+    width: 100%;
+}
+#title {
+    display: flex;
+    grid-column: 1/2;
+    grid-row: 1/2;
+    z-index: 1;
+    justify-self: center;
+    align-self: center;
+    font-size: 3em;
+    color: var(--headline-color-on-color);
+}
+#text-banner {
+    display: grid;
+    grid-template-columns: 4fr 1fr;
+    column-gap: 2px;
+    max-width: 800px;
+    margin: 0 auto;
+}
+body {
+    font-family: var(--paragraph-font);
+    background-color:antiquewhite;
+    max-width: 900px;
+    margin: 0 auto;
+}
+#text-banner p {
+    color: var(--paragraph-color-on-white)
+}
+#text-banner img {
+    float: right;
+    width: 100%;
+    grid-column: 2/3;
+}
+#text-banner2 {
+    display: grid;
+    grid-template-columns: 1fr 4fr;
+    background-color: var(--paragraph-background-color);
+}
+#text-banner2 img {
+    width: 100%
+}
+#text-banner2 p {
+    grid-column: 2/3;
+    color: var(--paragraph-color-on-color);
+    font-size: 2em;
+}
+#remaining-text {
+    color: var(--paragraph-color-on-white);
+}
+footer a {
+    color: var(--nav-link-color);
+    padding: 10px;
+}
+footer {
+    background-color: var(--nav-background-color);
+}
+footer img {
+    padding: 10px;
+}
+#logo {
+    width: 10%
+}
