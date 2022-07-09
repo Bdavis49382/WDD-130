@@ -117,3 +117,19 @@ footer img {
 #logo {
     width: 10%
 }
+.hike {
+    display: grid;
+    grid-template-columns: 1fr 4fr;
+    margin-bottom: 25px;
+    margin-top: 25px;
+    background-color: var(--paragraph-background-color);
+}
+.hike-img {
+    grid-column: 1/2;
+    width: 100%;
+}
+.hike-text {
+    grid-column: 2/3;
+    color: var(--paragraph-color-on-color);
+    text-indent: 50px;
+}
